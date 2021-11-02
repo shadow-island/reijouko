@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Spy - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\e\AppData\Local\Temp\RSP34C0.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /FR"Debug/" /Fp"Debug/Spy.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\my\eugene_data\now\code\SPyt\Spy.cpp"
+"E:\my\eugene_data\now\code\SPyt\SpyDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\e\AppData\Local\Temp\RSP34C0.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Spy.pdb" /debug /machine:I386 /out:"Debug/Spy.exe" /pdbtype:sept  .\Debug\Spy.obj .\Debug\SpyDlg.obj .\Debug\StdAfx.obj .\Debug\Spy.res "
+<h3>Output Window</h3>
+Compiling...
+SpyDlg.cpp
+Generating Code...
+Skipping... (no relevant changes detected)
+Spy.cpp
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Spy.bsc"  .\Debug\StdAfx.sbr .\Debug\Spy.sbr .\Debug\SpyDlg.sbr"
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Spy.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
